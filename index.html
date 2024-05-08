@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Heroes Images</h1>
+    <div class="main">
+
+        <div id="ss" class="abhi" onclick="div()">
+            <button onclick="Prabhas()">Prabhas</button>
+            <button onclick="alluarjun()">Allu Arjun</button>
+            <button onclick="nani()">Nani</button>
+        </div>
+        <div id="hh" class="sai">
+            <h1 >Click on button</h1>
+        </div>
+        
+    </div>
+   
+    <script>
+        function Prabhas(){
+            document.getElementById('hh').style.backgroundImage="url('https://pbs.twimg.com/media/Fo0uP7iaAAAJfw2.jpg:large')";
+        }
+
+        function alluarjun(){
+            document.getElementById('hh').style.backgroundImage="url('https://wallpapers.com/images/hd/allu-arjun-smiling-sq4roinrtnh3he3b.jpg')";
+        }
+
+        function nani(){
+            document.getElementById('hh').style.backgroundImage="url('https://i.pinimg.com/736x/b0/33/75/b033758b9116e6789a6c7fa48855141b.jpg')";
+        }
+
+
+        function div(){
+            document.getElementById('hh').innerText=" ";
+        }
+
+
+
+    </script>
+</body>
+</html>
